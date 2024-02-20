@@ -32,8 +32,9 @@ Introdução ao conceito de segurança da informação para ambientes IoT. Apres
 - [What is the CIA Triad? | Definition from TechTarget](https://www.techtarget.com/whatis/definition/Confidentiality-integrity-and-availability-CIA)
 - [What is the CIA Triad and Why is it important? | Fortinet](https://www.fortinet.com/resources/cyberglossary/cia-triad)
 
-*Confidentiality*
+*Vulns*
 - [Cache Poisoning | OWASP Foundation](https://owasp.org/www-community/attacks/Cache_Poisoning)
 - [Meltdown and Spectre](https://meltdownattack.com/)
 - [What is MITM (Man in the Middle) Attack | Imperva](https://www.imperva.com/learn/application-security/man-in-the-middle-attack-mitm/)
 - [Packet Sniffing Meaning, Methods, Examples and Best Practices](https://www.spiceworks.com/it-security/network-security/articles/what-is-packet-sniffing/)
+- [What is Social Engineering? | Definition - Kaspersky](https://usa.kaspersky.com/resource-center/definitions/what-is-social-engineering)
