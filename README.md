@@ -49,6 +49,11 @@ Introdução ao conceito de segurança da informação para ambientes IoT. Apres
 
 *Advanced Topics*
 - [MITRE ATT&CK](https://attack.mitre.org/)
+- [MQTT Stresser](https://github.com/inovex/mqtt-stresser)
+- [MQTT-PWN](https://github.com/akamai-threat-research/mqtt-pwn)
+
+*Lab Reference*
+- [How to setup Mosquitto MQTT Broker using docker](https://github.com/sukesh-ak/setup-mosquitto-with-docker)
 
 <br/>
 
