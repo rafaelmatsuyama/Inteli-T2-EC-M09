@@ -18,3 +18,10 @@ Introdução ao conceito de segurança da informação para ambientes IoT. Apres
 **Material de Auto-Estudo:**
 
 - [Confidentiality, Integrity, Availability, Authenticity, Non-repudiation | CIA Framework](https://www.youtube.com/watch?v=6m7mZNvM1Jo)
+
+<br/>
+
+**Materiais Complementares:**
+
+- [Por que times de segurança devem criar uma mentalidade hacker para defesa](https://evolutiatec.com.br/por-que-times-de-seguranca-devem-criar-uma-mentalidade-hacker/)
+- [Como pensar como um hacker e ficar à frente das ameaças](https://www.xlogic.com.br/como-pensar-como-um-hacker-e-ficar-a-frente-das-ameacas/)
