@@ -57,6 +57,12 @@ Introdução ao conceito de segurança da informação para ambientes IoT. Apres
 
 <br/>
 
+**Slides:**
+
+- [Encontro 01 -  Introdução à Segurança da Informação com foco em ambientes IoT](https://docs.google.com/presentation/d/1t0NWIW4tCYDQLSCf03uuUBli1_BIdDvazp0bm6ArDhM)
+
+<br/>
+
 **Roteiro do Lab:**
 
 Este Lab irá apresentar diversos cenários de vuln, o ideal é trabalhar em duplas ou trios (grupos de 2/3 alunos).
