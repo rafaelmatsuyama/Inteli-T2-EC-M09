@@ -46,3 +46,6 @@ Introdução ao conceito de segurança da informação para ambientes IoT. Apres
 - [What Is Digital Certificate? A Definitive Guide](https://www.clickssl.net/blog/what-is-digital-certificate)
 - [What Are Digital Certificates? | Fortinet](https://www.fortinet.com/resources/cyberglossary/digital-certificates)
 - [What Is a CDN (Content Delivery Network)? | How Do CDNs Work? | Akamai](https://www.akamai.com/glossary/what-is-a-cdn)
+
+*Advanced Topics*
+- [MITRE ATT&CK](https://attack.mitre.org/)
