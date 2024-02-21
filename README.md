@@ -55,6 +55,10 @@ Introdução ao conceito de segurança da informação para ambientes IoT. Apres
 *Lab Reference*
 - [How to setup Mosquitto MQTT Broker using docker](https://github.com/sukesh-ak/setup-mosquitto-with-docker)
 
+*Extra*
+- [Live Cyber Threat Map | Check Point](https://threatmap.checkpoint.com/)
+- [MAP | Kaspersky Cyberthreat real-time map](https://cybermap.kaspersky.com/)
+
 <br/>
 
 **Slides:**
