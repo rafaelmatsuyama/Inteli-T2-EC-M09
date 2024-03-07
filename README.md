@@ -270,3 +270,8 @@ Segurança em Armazenamento e Base de Dados. Uso de Criptografia e Controle de A
 *Criptografia*
 - [What is asymmetric encryption?](https://www.cloudflare.com/learning/ssl/what-is-asymmetric-encryption/)
 - [Asymmetric Encryption: Definition, Architecture, Usage](https://www.okta.com/identity-101/asymmetric-encryption/)
+
+*Injection Attacks*
+- [Top Injection Attacks and How to Avoid Them](https://www.guardrails.io/blog/top-injection-attacks-and-how-to-avoid-them/)
+- [SQL Injection](https://www.w3schools.com/sql/sql_injection.asp)
+- [Hacking NodeJS and MongoDB](https://blog.websecurify.com/2014/08/hacking-nodejs-and-mongodb)
