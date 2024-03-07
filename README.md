@@ -336,3 +336,28 @@ password: anythingyouwant
 
 5. Observe o log do `webserver` para ver que interessante fica a query completa que é enviada para o `MySQL`.
 
+6. Analisar essas vulnerabilidades de forma manual acaba exigindo muito tempo e não é escalável, então utilizaremos de uma `tool` chamada `SQLMap` que irá automatizar (em certa medida) esse processo.
+
+7. Entre na página da ferramenta (https://sqlmap.org/) e baixe a versão zipada ou o tarball e descompacte na sua pasta de preferência.
+
+8. Abra outro terminal, entre na pasta onde descompactou o `SQLMap` e rode ele com as seguintes flags:
+
+```
+python sqlmap.py -u http://localhost:8080/ --batch --banner --method POST --forms
+```
+
+> **Observação:** Esse comando buscará vulnerabilidades em um form (--forms) do tipo POST (--method POST) na URL informada, além disso, de forma automatizada (--batch) tentará algumas formas de injetar SQL, buscando também descobrir qual tipo de banco de dados que está sendo utilizado (--banner).
+
+> **Opcional:** Tente executar agora sem a flag --batch para ver o que o `SQLMap` pede para decidir durante o processo de exploração de vulnerabilidades.
+
+9. Observe no terminal do `SQLMap` que ele coloca os resultados da análise em um arquivo .csv.
+
+10. É possível direcionar a exploração para formas específicas de vulnerabilidade, como fazer o dump da tabela de usuários, para fazer isso, basta acrescentarmos a flag --dump no comando:
+
+```
+python sqlmap.py -u http://localhost:8080/ --batch --banner --method POST --forms --dump
+```
+
+11. A ferramenta faz o dump da tabela tanto na tela (`stdout`) quanto em um arquivo .csv.
+
+> **Opcional:** No link (https://github.com/sqlmapproject/sqlmap/wiki/Usage) é possível ver as inúmeras possibilidades de formas de ataque que podem ser simuladas por essa ferramenta.
