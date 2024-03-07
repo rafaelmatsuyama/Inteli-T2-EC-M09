@@ -254,3 +254,19 @@ Segurança em Armazenamento e Base de Dados. Uso de Criptografia e Controle de A
 - [Segurança da informação - Segurança em Nuvem](https://www.youtube.com/watch?v=3sVoaU03ANI)
 
 <br/>
+
+**Materiais Complementares:**
+
+*Controle de Acesso*
+
+- [What is Access Control in Database Security?](https://www.datasunrise.com/professional-info/what-is-access-control/)
+
+*Spoofing and Block/Allow Lists*
+- [Allowlist vs Blocklist](https://www.manageengine.com/application-control/allowlisting-vs-blocklisting.html)
+- [O que é spoofing?](https://www.kaspersky.com.br/resource-center/definitions/ip-and-email-spoofing)
+- [IP Spoofing Unraveled: What It Is & How to Prevent It](https://www.okta.com/identity-101/ip-spoofing/)
+- [What is Spoofing: A Definition and How to Prevent It](https://www.pandasecurity.com/en/mediacenter/what-is-spoofing/)
+
+*Criptografia*
+- [What is asymmetric encryption?](https://www.cloudflare.com/learning/ssl/what-is-asymmetric-encryption/)
+- [Asymmetric Encryption: Definition, Architecture, Usage](https://www.okta.com/identity-101/asymmetric-encryption/)
