@@ -276,11 +276,14 @@ Segurança em Armazenamento e Base de Dados. Uso de Criptografia e Controle de A
 - [SQL Injection](https://www.w3schools.com/sql/sql_injection.asp)
 - [Hacking NodeJS and MongoDB](https://blog.websecurify.com/2014/08/hacking-nodejs-and-mongodb)
 
+*Matriz de Probabilidade e Impacto*
+- [O que é a Matriz de Probabilidade e Impacto?](https://concentsistemas.com.br/2023/03/27/o-que-e-a-matriz-de-probabilidade-e-impacto/)
+
 <br/>
 
 **Slides:**
 
-- [Encontro 02 - Segurança em Base de Dados]()
+- [Encontro 02 - Segurança em Base de Dados](https://docs.google.com/presentation/d/1jnewGaHlnIB9PeOuECoupA0YtSzd29T0_XvV7RjCYxU)
 
 <br/>
 
