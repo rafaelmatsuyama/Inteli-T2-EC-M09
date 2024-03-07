@@ -279,6 +279,12 @@ Segurança em Armazenamento e Base de Dados. Uso de Criptografia e Controle de A
 *Matriz de Probabilidade e Impacto*
 - [O que é a Matriz de Probabilidade e Impacto?](https://concentsistemas.com.br/2023/03/27/o-que-e-a-matriz-de-probabilidade-e-impacto/)
 
+*Desafio*
+- [RedTiger's Hackit](https://redtiger.labs.overthewire.org/)
+
+*Extra*
+- [What Is the MITRE ATT&CK Framework?](https://www.trellix.com/security-awareness/cybersecurity/what-is-mitre-attack-framework/)
+
 <br/>
 
 **Slides:**
