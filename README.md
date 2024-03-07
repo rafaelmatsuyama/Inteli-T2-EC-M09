@@ -236,3 +236,21 @@ Dá para utilizar tanto o broker remoto quanto o broker local para conduzir as s
 > **Dica:** Lembre-se dos conceitos do CIA Triad, pode ajudar bastante.
 
 > **Dica:** Guarde as evidências para o relatório.
+
+<br />
+
+### Encontro 02 - Segurança em Base de Dados ###
+
+<br/>
+
+**Objetivo do Encontro:**
+
+Segurança em Armazenamento e Base de Dados. Uso de Criptografia e Controle de Acesso.
+
+<br/>
+
+**Material de Auto-Estudo:**
+
+- [Segurança da informação - Segurança em Nuvem](https://www.youtube.com/watch?v=3sVoaU03ANI)
+
+<br/>
